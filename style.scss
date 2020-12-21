@@ -1,0 +1,8 @@
+@import "./header";
+@import "./variables";
+
+.contact {
+  // @include flexCenter(row, blue);
+  @extend header; //inherit all styles from header
+  background: lightblue; //overrides the background color
+}
